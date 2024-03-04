@@ -1,4 +1,4 @@
-Passo a passo de como adicionar um código fonte no Git Hub importado da AWS - Atv1:
+Passo a passo de como adicionar um código fonte no Git Hub importado da AWS:
 
 1. Instalar o git na instância da AWS utilizando o comando sudo yum install git
 2. Utilizar o comando ssh-keygen para obter a chave SHA256 pública, que será salva em um diretório especificado dentro da AWS
