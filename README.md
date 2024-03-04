@@ -13,4 +13,4 @@ Passo a passo de como adicionar um código fonte no Git Hub importado da AWS:
 11. ./nome_do_arquivo para executar o programa compilado
 12. Utilizar o comando git add para adicionar os arquivos README.md e o código fonte para entrarem na fila
 13. O git commmit fecha o pacote de mudanças e adiciona uma mensagem
-14. Por fim, o comando git push envia os arquivos para o diretório especificado no Git Hub
+14. Por fim, o comando git push origin atualiza o branch, nesse caso o main, já com os arquivos adicionados na instância da AWS
