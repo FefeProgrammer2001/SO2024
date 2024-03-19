@@ -19,7 +19,7 @@ struct ThreadArgs {
 int threadFunction(void* argument) {
     struct ThreadArgs* args = (struct ThreadArgs*)argument;
     printf("Thread filha recebeu o argumento: %d\n", args->value);
-    printf("Thread filha existindo");
+    printf("Thread filha em execucao");
     return 0;
 }
 
@@ -34,7 +34,7 @@ int main() {
         exit(1);
     }
 
-    printf("Criando a thread filha\n");
+    printf("Processo pai criando a thread filha\n");
 
     // Argumentos para passar para a thread
     struct ThreadArgs args = {30}; // Exemplo de valor a ser passado
