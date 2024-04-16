@@ -1,4 +1,4 @@
-#Explicação do projeto
+# Explicação do projeto
 
 O projeto consiste basicamente em calcular o último momento
 em que a última pessoa saiu da escada. Considerando alguns
