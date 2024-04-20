@@ -47,3 +47,8 @@ de memória e recursos. Ao utilizar processos no caso, cada processo será
 uma pessoa. O processo necessitará de mais recursos e mais espaço na memória, já que os procesos filhos criados pelo processos pai através do fork() não conseguem compartilhar
 o mesmo espaço na memória, e pra cada processos criado, o espaço na memória é duplicado.
 
+# Observação:
+### Os respectivos arquivos finais com pthread e processos estão nomeados como:
+    pthreadFinal.c
+    processosFinal.c
+    
