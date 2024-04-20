@@ -8,7 +8,11 @@ em que a última pessoa saiu da escada. Considerando alguns
 aspectos essenciais como a direção desejada pela pessoa, o
 tempo de cada um (chegada e saída), e considerar que duas
 pessoas ou mais podem acessar a escada rolante desde que 
-esteja na mesma direção de ambas as pessoas
+esteja na mesma direção de ambas as pessoas. Isso porque a escada
+é larga, cabem inúmeras pessoas nessa escada, e para cada pessoa
+que acessa a escada, ela leva 10 segundos para ir de uma ponta a outra.
+Esses tempos serão somados com o tempo final para calcular o momento
+em que a última pessoa saiu da escada.
 
 ## Abordagem utilizada
 
