@@ -20,5 +20,5 @@ Para compilar o programa você deve utilizar o seguinte comando
 gcc -o matriz-vetor matriz-vetor.c -lpthread
 ```
 
-## Programa em funcionamento
+## Saída do programa
 ![Funcionamento do programa](AWS.png)
