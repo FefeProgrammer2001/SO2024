@@ -18,3 +18,5 @@
     Após isso, compilar o programa utilizando o comando gcc -o nome nome.c, onde nome é o binário do arquivo. Depois, ./nome para executar o programa compilado.
 
     Exemplo: se o nome do programa é Projeto.c, então para compilar, digite gcc -o Projeto Projeto.c
+
+1[Execução do código](Captura)
