@@ -28,9 +28,12 @@
 
 ## Explicando a solução:
     Mutex: Um mutex é utilizado para garantir que apenas uma thread pode acessar o saldo das contas de cada vez. O mutex é inicializado com pthread_mutex_init e destruído com pthread_mutex_destroy.
+    
     Exclusão Mútua: A função transferencia bloqueia o mutex antes de acessar e modificar os saldos (pthread_mutex_lock) e o libera após a modificação (pthread_mutex_unlock). 
     Isso garante que o bloco de código que verifica o saldo e realiza a transferência seja executado por apenas uma thread de cada vez.
+    
     Thread Safety: Ao usar mutexes, garantimos que as operações de leitura e escrita nos saldos das contas são seguras, evitando resultados incorretos devido à condição de corrida.
+    
     A conta c1 pode trocar de lugar com a conta c2, ou seja, A conta c1 está recebendo enquanto a conta c2 está enviando, mas em um certo momento, elas podem trocar
     de lugar, fazendo com que a conta c1 passe a enviar, enquanto a conta c2, passe a receber.
     Para isso, foi criado uma variável chamada transferencia_direction
