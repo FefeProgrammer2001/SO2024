@@ -1,4 +1,3 @@
-#define _GNU_SOURCE
 #include <stdlib.h>
 #include <stdio.h>
 #include <pthread.h>
@@ -49,7 +48,7 @@ int main()
         exit(1);
     }
 
-    // Todas as contas começam com saldo 100
+    // saldo das contas
     from.saldo = 100;
     to.saldo = 100;
 
