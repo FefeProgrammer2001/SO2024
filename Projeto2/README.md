@@ -2,7 +2,8 @@
 ## Feito por Fellipe Jardanovski e Felipe Jiao
 
 ## Problema Específico:
-    No código original, múltiplas threads tentam realizar a transferência de um valor da conta from para a conta to. A condição de corrida ocorre porque as threads acessam e modificam o saldo das contas sem qualquer sincronização. Isso pode levar a inconsistências no saldo das contas, pois várias threads podem ler e modificar os saldos ao mesmo tempo, levando a operações incorretas.
+    No código original, múltiplas threads tentam realizar a transferência de um valor da conta "from" para a conta "to". 
+    A condição de corrida ocorre porque as threads acessam e modificam o saldo das contas sem qualquer sincronização. Isso pode levar a inconsistências no saldo das contas, pois várias threads podem ler e modificar os saldos ao mesmo tempo, levando a operações incorretas.
 
 
 ## Exemplificação do Problema:
